@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/dashboard")
+      .get("https://military-asset-management-20cu.onrender.com/dashboard")
       .then((res) => {
         setData(res.data);
       })
